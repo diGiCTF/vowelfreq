@@ -20,7 +20,7 @@ Ensure you have Python installed, along with the required dependencies:
 
 ```bash
 pip install pandas openpyxl
-python vowelfreq.py --input dictionary_words_lower_350k.txt --min 6 --max 11
+python vowelfreq.py --input words.txt --min 6 --max 11
 Processing words between 6 and 11 characters...
 
 [INFO] Generating vowel position analysis...
